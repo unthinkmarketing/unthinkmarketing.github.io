@@ -5,6 +5,17 @@
     font-family: 'Roboto', sans-serif;
 }
 
+.bb-a {
+    text-decoration: none;
+    color: #f85c37;
+    transition: color 0.1s ease-in 0s,background 0.1s ease-in 0s;
+    word-wrap: break-word;
+}
+
+.footer-property a {
+    text-decoration: none;
+}
+
 .accent-color-text {
     color: #DE5846!important;
 }
@@ -14,7 +25,7 @@
 }
 
 .primary-color-text {
-    color: #F8F8F8!important;
+    color: #afafaf!important;
 }
 
 .primary-color-bg {
@@ -132,7 +143,7 @@
 }
 
 .sbs-container {
-    margin: 200px 10%;
+    margin: 25px 10%;
     width: 79%;
 }
 
