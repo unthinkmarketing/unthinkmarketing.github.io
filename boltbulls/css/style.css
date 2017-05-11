@@ -257,6 +257,53 @@
 
 /*Mobile Style*/
 
+@media only screen and (min-width:828px) {
+    .nav {
+        position: fixed;
+        top: 0;
+        z-index: 100;
+        width: 100%;
+        display: inline-flex;
+        height: 75px;
+        border-bottom: 3px solid #F1F1F1;
+    }
+    .nav-logo {
+        height: auto;
+        width: auto;
+        max-width: 20%;
+        margin: auto auto auto 16%;
+    }
+    .nav-ul {
+        list-style: none;
+        display: inline-flex;
+        width: 33%;
+        overflow: hidden;
+        margin: auto 5% auto 5%;
+        position: absolute;
+        right: 0px;
+    }
+    .nav-li {
+        width: 23%;
+        padding: none 1%;
+        margin: auto;
+    }
+    .nav-a {
+        text-decoration: none;
+        line-height: 75px;
+        font-size: 28px;
+        color: black;
+        text-transform: uppercase;
+    }
+    .url-h2 {
+        font-size: 28px;
+        margin-bottom: 5px;
+    }
+    .url-p {
+        font-size: 16px;
+        margin-bottom: 75px;
+    }
+}
+
 @media only screen and (max-width: 828px) {
     .url-container {
         width: 90%;
@@ -309,6 +356,20 @@
         z-index: 10;
         display: block;
         border-bottom: none;
+    }
+    .url-div {
+/*        margin-top: 75px;*/
+    }
+    .main-h1-text {
+        font-size: 36px;
+    }
+    .url-h2 {
+        font-size: 22px;
+        margin-bottom: 5px;
+    }
+    .url-p {
+        font-size: 12px;
+        margin-bottom: 25px;
     }
     .mobile-close-button {
         width: 8vw;
