@@ -8,7 +8,7 @@
 .bb-a {
     text-decoration: none;
     color: #f85c37;
-    transition: color 0.1s ease-in 0s,background 0.1s ease-in 0s;
+    transition: color 0.1s ease-in 0s, background 0.1s ease-in 0s;
     word-wrap: break-word;
 }
 
@@ -113,6 +113,28 @@
     height: 100vh;
     width: 100%;
     display: flex;
+}
+
+.url-div-container-half {
+    height: 70vh;
+    width: 100%;
+    position: relative;
+}
+
+.url-input-container-half {
+    height: 30vh;
+    width: 100%;
+    position: relative;
+}
+
+.url-container-half {
+    position: absolute;
+        bottom: 29px;
+}
+
+.url-input-div-half {
+    position: absolute;
+    top: -29px;
 }
 
 .main-h1-text {
@@ -367,9 +389,6 @@
         z-index: 10;
         display: block;
         border-bottom: none;
-    }
-    .url-div {
-/*        margin-top: 75px;*/
     }
     .main-h1-text {
         font-size: 36px;
