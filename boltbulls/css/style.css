@@ -129,7 +129,7 @@
 
 .url-container-half {
     position: absolute;
-        bottom: 29px;
+    bottom: 29px;
 }
 
 .url-input-div-half {
@@ -287,8 +287,211 @@
     height: 100%;
 }
 
+.results-main {
+    max-width: 900px;
+    width: 90%;
+    display: flex;
+    margin: auto;
+    margin-top: 150px;
+    padding-bottom: 75px;
+    border-bottom: solid 3px #E8E8E8;
+}
 
-/*Mobile Style*/
+.results-img-div {
+    flex: 0 0 34%;
+    margin: auto 1%;
+}
+
+.results-img {
+    width: 90%;
+    margin: auto;
+}
+
+.results-side-text {
+    flex: 0 0 63%;
+    margin: auto 1%;
+}
+
+.results-h1 {
+    font-size: 30px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+.results-url-input-div {
+    display: inline-flex;
+    width: 90%;
+    margin: auto;
+}
+
+.results-analyze-button {
+    color: white;
+    border: none;
+    padding: 5px 15px;
+    text-transform: uppercase;
+    font-size: 30px;
+    height: 44px;
+}
+
+.results-url-input {
+    font-size: 25px;
+    line-height: 40px;
+    width: 100%;
+    text-align: center;
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+    margin: auto;
+}
+
+.results-score {
+    display: flex;
+    margin-top: 20px;
+}
+
+.results-score-num {
+    flex: 0 0 45%;
+    margin: auto;
+}
+
+#overall,
+#load-time {
+    font-size: 50px;
+}
+
+.results-p {
+    font-weight: bolder;
+}
+
+.vertical-border {
+    border-right: solid 3px #E8E8E8;
+}
+
+.results-bot {
+    max-width: 900px;
+    width: 90%;
+    margin: auto;
+    margin-top: 20px;
+    padding-bottom: 20vh;
+}
+
+.results-score-num-2 {
+    flex: 0 0 30%;
+    margin: auto;
+}
+
+.l-results {
+    margin-left: 20%;
+}
+
+.r-results {
+    margin-right: 20%;
+}
+
+.results-about {
+    max-width: 900px;
+    width: 90%;
+    margin: auto;
+    text-align: center;
+}
+
+.results-about h2 {
+    margin-bottom: 20px;
+    font-weight: bolder;
+    font-size: 40px;
+}
+
+.results-tab-container {
+    width: 800px;
+    margin: auto;
+    margin-top: 10vh;
+}
+
+.tabs {
+    margin: 0px;
+    padding: 0px;
+    background-color: #E4E4E4;
+    display: flex;
+}
+
+.triangle-tabs {
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+}
+
+.tab-link {
+    background: none;
+    color: #222;
+    flex: 1 0 32%;
+    padding: 10px 0;
+    cursor: pointer;
+    border: solid 2px #D9D9D9;
+}
+
+.tab-triangle {
+    flex: 0 0 33%;
+}
+
+.triangle {
+    display: none;
+    background: none!important;
+    margin: auto;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 25px 25px 0 25px;
+    border-color: #383838 transparent transparent transparent;
+}
+
+.no-border {
+    border: none;
+}
+
+.tab-link h2 {
+    text-align: center;
+    color: #7E7E7E;
+}
+
+.current {
+    background: #383838;
+    display: block;
+}
+
+.current h2 {
+    color: white;
+}
+
+.results-tab-h2 {
+    color: #7E7E7E!important;
+}
+
+.tab-content {
+    display: none;
+    background: #F9F9F9;
+    padding-top: 15px;
+    color: #7E7E7E!important;
+}
+
+.tab-content.current {
+    display: inherit;
+}
+
+.tab-content h2,
+.tab-content p {
+    text-align: center;
+}
+
+.results-tab-li {
+    list-style: none;
+    line-height: 26px;
+    font-size: 18px;
+    margin: auto 0;
+    padding-left: 15px;
+}
+
+.tab-li-off {
+    background-color: white;
+}
 
 @media only screen and (min-width:828px) {
     .nav {
@@ -336,6 +539,9 @@
         margin-bottom: 75px;
     }
 }
+
+
+/*Mobile Style*/
 
 @media only screen and (max-width: 828px) {
     .url-container {
@@ -447,5 +653,33 @@
     }
     .mobile-a-active {
         color: #F8F8F8!important;
+    }
+    .results-img-div {
+        flex: 0 0 90%;
+        margin: auto 5%;
+    }
+    .results-side-text {
+        flex: 0 0 100%;
+        margin: auto;
+        margin-top: 25px;
+    }
+    .results-main {
+        display: block;
+    }
+    .results-url-input-div {
+        width: 100%;
+    }
+    .results-h1 {
+        text-align: center;
+    }
+    .results-score-num-2 {
+        flex: 0 0 100%;
+        margin: 25px auto;
+    }
+    .results-bot {
+        display: block;
+    }
+    .results-tab-container {
+        width: 100%;
     }
 }
