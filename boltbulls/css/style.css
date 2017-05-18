@@ -104,7 +104,7 @@
 .nav-a {
     text-decoration: none;
     line-height: 75px;
-    font-size: 28px;
+    font-size: 24px;
     color: black;
     text-transform: uppercase;
 }
@@ -470,6 +470,7 @@
     background: #F9F9F9;
     padding-top: 15px;
     color: #7E7E7E!important;
+/*    border-radius: 10px;*/
 }
 
 .tab-content.current {
@@ -483,18 +484,30 @@
 
 .results-tab-li {
     list-style: none;
-    line-height: 26px;
+    line-height: 36px;
     font-size: 18px;
     margin: auto 0;
     padding-left: 15px;
+/*    border-radius: 10px;*/
 }
 
 .tab-li-off {
     background-color: white;
+/*    border-radius: 10px;*/
 }
 
 .results-tab-ul {
     padding-top: 5px;
+}
+
+.results-warning {
+    color: #DE5846;
+}
+
+.results-warning:hover,
+.results-warning:focus {
+    font-weight: bold;
+    cursor: pointer;
 }
 
 
@@ -643,7 +656,7 @@
     .nav-a {
         text-decoration: none;
         line-height: 75px;
-        font-size: 28px;
+        font-size: 24px;
         color: black;
         text-transform: uppercase;
     }
